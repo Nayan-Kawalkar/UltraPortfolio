@@ -1,0 +1,24 @@
+# This repo holds only the portfolio site: the web app and its API server.
+# Everything else in this folder stays out, so new files here are ignored by default.
+/*
+!/.gitignore
+!/README.md
+!/web/
+!/smart-portfilio-server-2.0/
+
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+
+# In the server folder, but not used by this site. Some of it is client content.
+/smart-portfilio-server-2.0/Jitu Info.md
+/smart-portfilio-server-2.0/README.md
+/smart-portfilio-server-2.0/figjam-board.html
+/smart-portfilio-server-2.0/migration-3072.sql
+/smart-portfilio-server-2.0/public/
+/smart-portfilio-server-2.0/scratch/
+/smart-portfilio-server-2.0/server.mjs
+/smart-portfilio-server-2.0/supabase-schema.sql
+/smart-portfilio-server-2.0/test-connection.ts
