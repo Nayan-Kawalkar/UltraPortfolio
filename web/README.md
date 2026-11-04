@@ -22,6 +22,6 @@ Name, greeting, suggestions, sidebar projects and social links are all in `src/s
 
 ## Deploy
 
-1. Deploy the backend and set `VITE_API_BASE_URL` to its URL when building this app (see `.env.example`).
+1. Deploy the backend and put its URL in `.env.production`, with no trailing slash. Production builds read it automatically.
 2. Add the frontend's domain to `allowedOrigins` in the backend's `src/config.ts`, or the browser will block requests in production.
 3. Run `npm run build` and host the `dist` folder on any static host.

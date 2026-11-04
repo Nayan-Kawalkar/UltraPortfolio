@@ -11,6 +11,7 @@ dist/
 .env
 .env.*
 !.env.example
+!/web/.env.production
 
 # In the server folder, but not used by this site. Some of it is client content.
 /smart-portfilio-server-2.0/Jitu Info.md

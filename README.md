@@ -55,4 +55,4 @@ Optional:
 
 ## Deploy
 
-Deploy the server, then build `web/` with `VITE_API_BASE_URL` set to the server's URL. Add the frontend's domain to `allowedOrigins` in `smart-portfilio-server-2.0/src/config.ts`, or the browser will block its requests.
+Deploy the server and put its URL in `web/.env.production`. Add the frontend's domain to `allowedOrigins` in `smart-portfilio-server-2.0/src/config.ts`, or the browser will block its requests.

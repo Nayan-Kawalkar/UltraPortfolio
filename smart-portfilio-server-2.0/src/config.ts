@@ -54,6 +54,7 @@ export const config = {
     'https://askakash.com',
     'https://predictable-feel-940249.framer.app',
     'https://ultrafolio.framer.website',
+    'https://ultra-portfolio-hcrf.vercel.app',
     /^https:\/\/.*\.framer\.app$/,   // Framer preview domains (regex for wildcard)
     'http://localhost:3000',
     'http://localhost:5173',
